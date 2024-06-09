@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace c_sharp_apps_oded_frig.TransportationApp
 {
-    internal class TransportationAppMain
+    public class TransportationAppMain
     {
 
 
@@ -16,5 +16,5 @@ namespace c_sharp_apps_oded_frig.TransportationApp
         }
     }
 
-   
+
 }
