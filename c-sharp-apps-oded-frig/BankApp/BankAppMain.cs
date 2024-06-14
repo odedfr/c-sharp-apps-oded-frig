@@ -12,6 +12,7 @@ namespace c_sharp_apps_oded_frig.BankApp
         public static void MainEntry()
         {
             Console.WriteLine("BankApp");
+            new TestAccount();
         }
     }
 }
