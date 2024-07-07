@@ -1,4 +1,5 @@
-﻿using System;
+﻿using c_sharp_apps_oded_frig.task3;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,8 @@ namespace c_sharp_apps_oded_frig.TransportationApp
         public static void MainEntry()
         {
             Console.WriteLine("TransportationApp");
+            MonitorTransportation monitor = new MonitorTransportation();
+            monitor.Test1();
         }
     }
 
