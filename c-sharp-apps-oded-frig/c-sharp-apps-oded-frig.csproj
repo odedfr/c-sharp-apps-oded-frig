@@ -60,8 +60,25 @@
     <Compile Include="TransportationApp\task3\PassengersTrain .cs" />
     <Compile Include="TransportationApp\task3\PublicVehicle.cs" />
     <Compile Include="TransportationApp\task3\TransportationAppMain.cs" />
+    <Compile Include="TransportationApp\task4\CalcPrice.cs" />
+    <Compile Include="TransportationApp\task4\CargoVehicles\CargoPlane.cs" />
+    <Compile Include="TransportationApp\task4\CargoVehicles\CargoShip.cs" />
+    <Compile Include="TransportationApp\task4\CargoVehicles\CargoTrain.cs" />
+    <Compile Include="TransportationApp\task4\CargoVehicle.cs" />
+    <Compile Include="TransportationApp\task4\CargoVehicles\Container.cs" />
+    <Compile Include="TransportationApp\task4\CargoVehicles\Crone.cs" />
+    <Compile Include="TransportationApp\task4\Driver.cs" />
+    <Compile Include="TransportationApp\task4\CargoType.cs" />
+    <Compile Include="TransportationApp\task4\interface\IContainable.cs" />
+    <Compile Include="TransportationApp\task4\interface\IPortable.cs" />
+    <Compile Include="TransportationApp\task4\interface\IShippingPriceCalculator.cs" />
+    <Compile Include="TransportationApp\task4\Port.cs" />
+    <Compile Include="TransportationApp\task4\StorageStructure.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup />
